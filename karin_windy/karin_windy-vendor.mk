@@ -67,7 +67,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/karin_windy/proprietary/lib/camera/libexcal_snapshot_ctrl_plugin.so:system/lib/camera/libexcal_snapshot_ctrl_plugin.so \
     vendor/sony/karin_windy/proprietary/lib/camera/libexcal_splitter_plugin.so:system/lib/camera/libexcal_splitter_plugin.so \
     vendor/sony/karin_windy/proprietary/lib/camera/libexcal_stream_ctrl_plugin.so:system/lib/camera/libexcal_stream_ctrl_plugin.so \
-    vendor/sony/karin_windy/proprietary/vendor/lib/hw/camera.qcom.so:system/vendor/lib/hw/camera.qcom.so \
     vendor/sony/karin_windy/proprietary/vendor/lib/hw/camera.vendor.qcom.so:system/vendor/lib/hw/camera.vendor.qcom.so \
     vendor/sony/karin_windy/proprietary/lib/lib_asb_tee.so:system/lib/lib_asb_tee.so \
     vendor/sony/karin_windy/proprietary/lib/libcacao_client.so:system/lib/libcacao_client.so \
