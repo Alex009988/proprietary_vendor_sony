@@ -76,6 +76,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/kitakami-common/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
     vendor/sony/kitakami-common/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
     vendor/sony/kitakami-common/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
+    vendor/sony/kitakami-common/proprietary/lib/libaudioresampler.so:system/lib/libaudioresampler.so \
     vendor/sony/kitakami-common/proprietary/lib/libMiscTaAccessor.so:system/lib/libMiscTaAccessor.so \
     vendor/sony/kitakami-common/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/sony/kitakami-common/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
@@ -88,6 +89,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/kitakami-common/proprietary/lib/libta.so:system/lib/libta.so \
     vendor/sony/kitakami-common/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
     vendor/sony/kitakami-common/proprietary/lib64/libMiscTaAccessor.so:system/lib64/libMiscTaAccessor.so \
+    vendor/sony/kitakami-common/proprietary/lib64/libaudioresampler.so:system/lib64/libaudioresampler.so \
     vendor/sony/kitakami-common/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
     vendor/sony/kitakami-common/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
     vendor/sony/kitakami-common/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
