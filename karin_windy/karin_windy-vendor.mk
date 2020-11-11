@@ -77,8 +77,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/karin_windy/proprietary/lib/libcacao_system.so:system/lib/libcacao_system.so \
     vendor/sony/karin_windy/proprietary/lib/libcamera_clientsemc.so:system/lib/libcamera_clientsemc.so \
     vendor/sony/karin_windy/proprietary/lib/libcammw.so:system/lib/libcammw.so \
-    vendor/sony/karin_windy/proprietary/lib/libcameralight.so:system/lib/libcameralight.so \
-    vendor/sony/karin_windy/proprietary/lib64/libcameralight.so:system/lib64/libcameralight.so \
     vendor/sony/karin_windy/proprietary/lib/libcredential-manager-service.so:system/lib/libcredential-manager-service.so \
     vendor/sony/karin_windy/proprietary/lib/libdevice_security.so:system/lib/libdevice_security.so \
     vendor/sony/karin_windy/proprietary/lib/libexcal_core.so:system/lib/libexcal_core.so \
