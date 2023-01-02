@@ -24,7 +24,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/karin/proprietary/etc/acdbdata/Sony/Sony_Global_cal.acdb:system/etc/acdbdata/Sony/Sony_Global_cal.acdb \
     vendor/sony/karin/proprietary/etc/acdbdata/Sony/Sony_Handset_cal.acdb:system/etc/acdbdata/Sony/Sony_Handset_cal.acdb \
     vendor/sony/karin/proprietary/etc/acdbdata/Sony/Sony_Hdmi_cal.acdb:system/etc/acdbdata/Sony/Sony_Hdmi_cal.acdb \
-    vendor/sony/karin/proprietary/etc/acdbdata/Sony/Sony_Headset_cal.acdb:system/etc/acdbdata/Sony/Sony_Headset_cal.acdb \
     vendor/sony/karin/proprietary/etc/acdbdata/Sony/Sony_Speaker_cal.acdb:system/etc/acdbdata/Sony/Sony_Speaker_cal.acdb \
     vendor/sony/karin/proprietary/etc/firmware/BCM43xx.hcd:system/etc/firmware/BCM43xx.hcd \
     vendor/sony/karin/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
