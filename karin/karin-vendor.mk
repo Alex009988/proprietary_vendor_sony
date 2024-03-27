@@ -449,7 +449,3 @@ PRODUCT_COPY_FILES += \
     vendor/sony/karin/proprietary/vendor/lib64/libssd.so:system/vendor/lib64/libssd.so \
     vendor/sony/karin/proprietary/vendor/lib64/libvendorconn.so:system/vendor/lib64/libvendorconn.so \
     vendor/sony/karin/proprietary/vendor/lib64/sensors.ssc.so:system/vendor/lib64/sensors.ssc.so
-
-PRODUCT_PACKAGES += \
-    ims \
-    imssettings
