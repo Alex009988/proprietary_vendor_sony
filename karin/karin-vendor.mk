@@ -108,6 +108,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/karin/proprietary/lib64/libcamera_clientsemc.so:system/lib64/libcamera_clientsemc.so \
     vendor/sony/karin/proprietary/lib64/libidd.so:system/lib64/libidd.so \
     vendor/sony/karin/proprietary/lib64/liblights-core.so:system/lib64/liblights-core.so \
+	vendor/sony/karin/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/sony/karin/proprietary/vendor/bin/touch_fusion:system/vendor/bin/touch_fusion \
     vendor/sony/karin/proprietary/vendor/camera/LGI05BN0/color_ctrl.dat:system/vendor/camera/LGI05BN0/color_ctrl.dat \
     vendor/sony/karin/proprietary/vendor/camera/LGI05BN0/dataflow.dat:system/vendor/camera/LGI05BN0/dataflow.dat \
@@ -430,6 +431,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/karin/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/sony/karin/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
     vendor/sony/karin/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
+	vendor/sony/karin/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/sony/karin/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
     vendor/sony/karin/proprietary/vendor/lib/sensors.ssc.so:system/vendor/lib/sensors.ssc.so \
     vendor/sony/karin/proprietary/vendor/lib64/lib-sec-disp.so:system/vendor/lib64/lib-sec-disp.so \
@@ -447,5 +449,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/karin/proprietary/vendor/lib64/libsensor1.so:system/vendor/lib64/libsensor1.so \
     vendor/sony/karin/proprietary/vendor/lib64/libsensor_reg.so:system/vendor/lib64/libsensor_reg.so \
     vendor/sony/karin/proprietary/vendor/lib64/libssd.so:system/vendor/lib64/libssd.so \
+	vendor/sony/karin/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
+    vendor/sony/karin/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
     vendor/sony/karin/proprietary/vendor/lib64/libvendorconn.so:system/vendor/lib64/libvendorconn.so \
     vendor/sony/karin/proprietary/vendor/lib64/sensors.ssc.so:system/vendor/lib64/sensors.ssc.so
