@@ -19,7 +19,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/kitakami-common/proprietary/bin/adsprpcd:$(TARGET_COPY_OUT_SYSTEM)/bin/adsprpcd \
     vendor/sony/kitakami-common/proprietary/bin/iddd:$(TARGET_COPY_OUT_SYSTEM)/bin/iddd \
     vendor/sony/kitakami-common/proprietary/bin/mlog_qmi_service:$(TARGET_COPY_OUT_SYSTEM)/bin/mlog_qmi_service \
-    vendor/sony/kitakami-common/proprietary/bin/msm_irqbalance:$(TARGET_COPY_OUT_SYSTEM)/bin/msm_irqbalance \
+    vendor/sony/kitakami-common/proprietary/vendor/bin/msm_irqbalance:$(TARGET_COPY_OUT_VENDOR)/bin/msm_irqbalance \
     vendor/sony/kitakami-common/proprietary/bin/pm-proxy:$(TARGET_COPY_OUT_SYSTEM)/bin/pm-proxy \
     vendor/sony/kitakami-common/proprietary/bin/pm-service:$(TARGET_COPY_OUT_SYSTEM)/bin/pm-service \
     vendor/sony/kitakami-common/proprietary/bin/sct_service:$(TARGET_COPY_OUT_SYSTEM)/bin/sct_service \
