@@ -92,6 +92,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/kitakami-common/proprietary/lib/libdevice_security.so:system/lib/libdevice_security.so \
     vendor/sony/kitakami-common/proprietary/lib/libdevice_security.so:system/vendor/lib/libdevice_security.so \
     vendor/sony/kitakami-common/proprietary/lib/libgps.utils.so:system/vendor/lib/libgps.utils.so \
+    vendor/sony/kitakami-common/proprietary/lib64/libjni_latinimegoogle.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libjni_latinimegoogle.so \
     vendor/sony/kitakami-common/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/sony/kitakami-common/proprietary/lib/libloc_api_v02.so:system/vendor/lib/libloc_api_v02.so \
     vendor/sony/kitakami-common/proprietary/lib/libloc_core.so:system/vendor/lib/libloc_core.so \
