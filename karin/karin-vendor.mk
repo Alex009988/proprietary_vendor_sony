@@ -277,6 +277,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/karin/proprietary/vendor/firmware/max11945.bin:system/vendor/firmware/max11945.bin \
     vendor/sony/karin/proprietary/vendor/lib/lib-sec-disp.so:system/vendor/lib/lib-sec-disp.so \
     vendor/sony/karin/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
+    vendor/sony/karin/proprietary/vendor/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
     vendor/sony/karin/proprietary/vendor/lib/libStDrvInt.so:system/vendor/lib/libStDrvInt.so \
     vendor/sony/karin/proprietary/vendor/lib/libactuator_ad5823.so:system/vendor/lib/libactuator_ad5823.so \
     vendor/sony/karin/proprietary/vendor/lib/libactuator_ad5823_camcorder.so:system/vendor/lib/libactuator_ad5823_camcorder.so \
@@ -325,6 +326,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/karin/proprietary/vendor/lib/libchromatix_s5k3m2xx_video_4k.so:system/vendor/lib/libchromatix_s5k3m2xx_video_4k.so \
     vendor/sony/karin/proprietary/vendor/lib/libdataitems.so:system/vendor/lib/libdataitems.so \
     vendor/sony/karin/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
+    vendor/sony/karin/proprietary/vendor/lib/libdrmfs.so:system/lib/libdrmfs.so \
     vendor/sony/karin/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
     vendor/sony/karin/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
     vendor/sony/karin/proprietary/vendor/lib/libflash_pmic.so:system/vendor/lib/libflash_pmic.so \
@@ -425,30 +427,36 @@ PRODUCT_COPY_FILES += \
     vendor/sony/karin/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
     vendor/sony/karin/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:system/vendor/lib/libqomx_jpegenc_pipe.so \
     vendor/sony/karin/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
+    vendor/sony/karin/proprietary/vendor/lib/librpmb.so:system/lib/librpmb.so \
     vendor/sony/karin/proprietary/vendor/lib/libsecureui.so:system/vendor/lib/libsecureui.so \
     vendor/sony/karin/proprietary/vendor/lib/libsecureui_svcsock.so:system/vendor/lib/libsecureui_svcsock.so \
     vendor/sony/karin/proprietary/vendor/lib/libseemore.so:system/vendor/lib/libseemore.so \
     vendor/sony/karin/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/sony/karin/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
     vendor/sony/karin/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
+    vendor/sony/karin/proprietary/vendor/lib/libssd.so:system/lib/libssd.so \
 	vendor/sony/karin/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/sony/karin/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
     vendor/sony/karin/proprietary/vendor/lib/sensors.ssc.so:system/vendor/lib/sensors.ssc.so \
     vendor/sony/karin/proprietary/vendor/lib64/lib-sec-disp.so:system/vendor/lib64/lib-sec-disp.so \
     vendor/sony/karin/proprietary/vendor/lib64/libQSEEComAPI.so:system/vendor/lib64/libQSEEComAPI.so \
+    vendor/sony/karin/proprietary/vendor/lib64/libQSEEComAPI.so:system/lib64/libQSEEComAPI.so \
     vendor/sony/karin/proprietary/vendor/lib64/libStDrvInt.so:system/vendor/lib64/libStDrvInt.so \
     vendor/sony/karin/proprietary/vendor/lib64/libdataitems.so:system/vendor/lib64/libdataitems.so \
     vendor/sony/karin/proprietary/vendor/lib64/libdrmfs.so:system/vendor/lib64/libdrmfs.so \
+    vendor/sony/karin/proprietary/vendor/lib64/libdrmfs.so:system/lib64/libdrmfs.so \
     vendor/sony/karin/proprietary/vendor/lib64/libdrmtime.so:system/vendor/lib64/libdrmtime.so \
     vendor/sony/karin/proprietary/vendor/lib64/libmmcamera2_q3a_core.so:system/vendor/lib64/libmmcamera2_q3a_core.so \
     vendor/sony/karin/proprietary/vendor/lib64/libmmcamera2_sensor_debug.so:system/vendor/lib64/libmmcamera2_sensor_debug.so \
     vendor/sony/karin/proprietary/vendor/lib64/libmmcamera2_stats_algorithm.so:system/vendor/lib64/libmmcamera2_stats_algorithm.so \
     vendor/sony/karin/proprietary/vendor/lib64/librpmb.so:system/vendor/lib64/librpmb.so \
+    vendor/sony/karin/proprietary/vendor/lib64/librpmb.so:system/lib64/librpmb.so \
     vendor/sony/karin/proprietary/vendor/lib64/libsecureui.so:system/vendor/lib64/libsecureui.so \
     vendor/sony/karin/proprietary/vendor/lib64/libsecureui_svcsock.so:system/vendor/lib64/libsecureui_svcsock.so \
     vendor/sony/karin/proprietary/vendor/lib64/libsensor1.so:system/vendor/lib64/libsensor1.so \
     vendor/sony/karin/proprietary/vendor/lib64/libsensor_reg.so:system/vendor/lib64/libsensor_reg.so \
     vendor/sony/karin/proprietary/vendor/lib64/libssd.so:system/vendor/lib64/libssd.so \
+    vendor/sony/karin/proprietary/vendor/lib64/libssd.so:system/lib64/libssd.so \
 	vendor/sony/karin/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
     vendor/sony/karin/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
     vendor/sony/karin/proprietary/vendor/lib64/libvendorconn.so:system/vendor/lib64/libvendorconn.so \
